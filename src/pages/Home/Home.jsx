@@ -395,7 +395,7 @@ const Home = () => {
 
       <div className="pt-[40px] pb-[50px]">
         <Swiper
-          slidesPerView={1.5}
+          slidesPerView={1}
           spaceBetween={10}
           pagination={{
             clickable: true,
