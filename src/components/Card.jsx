@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ photo, name, username, starPhoto, description }) => {
   return (
-    <div className="border-[2px] mb-[40px] h-[200px] w-[400px] p-[25px] rounded-md">
+    <div className="border-[2px] mb-[40px] h-[200px] w-[400px] md;w-[370px] p-[25px] rounded-md">
       <div className="flex justify-between">
         <div className="flex items-center gap-[10px]">
           <img
