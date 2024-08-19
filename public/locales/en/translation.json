@@ -1,0 +1,199 @@
+{
+  "navbar": {
+    "about": "About us",
+    "features": "Features",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "help": "Contacts"
+  },
+  "lang": {
+    "en": "English",
+    "ru": "Russian"
+  },
+  "sec1": {
+    "title": "Want anything to be easy with LaslesVPN.",
+    "subtitle": "Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.",
+    "buttext": "Get Started"
+  },
+  "sec2": {
+    "users": "Users",
+    "location": "Location",
+    "servers": "Servers"
+  },
+  "sec3": {
+    "title": "We Provide Many Features You Can Use",
+    "subtitle": "You can explore the features that we provide with fun and have their own functions each feature.",
+    "text1": "Powerfull online protection.",
+    "text2": "Internet without borders.",
+    "text3": "Supercharged VPN",
+    "text4": "No specific time limits."
+  },
+  "middiv": {
+    "text1": "Choose Your Plan",
+    "text2": "Let's choose the package that is best for you and explore it happily and cheerfully."
+  },
+  "card1": {
+    "title1": "Free Plan",
+    "title2": "Standard Plan",
+    "title3": "Premium Plan",
+    "text1": "Unlimited Bandwitch",
+    "text2": "Encrypted Connection",
+    "text3": "No Traffic Logs",
+    "text4": "Works on All Devices",
+    "text5": "Connect Anywhere",
+    "text6": "Get New Features",
+    "text7": "Free",
+    "textBtn": "Select"
+  },
+  "div": {
+    "text1": "Huge Global Network of Fast VPN",
+    "text2": "See LaslesVPN everywhere to make it easier for you when you move locations."
+  },
+  "lastDiv": {
+    "text1": "Trusted by Thousands of Happy Customer",
+    "text2": "These are the stories of our customers who have joined us with great pleasure when using this crazy feature."
+  },
+  "cards1": {
+    "name": "Viezh Robert",
+    "city": "Warsaw Poland",
+    "desc": "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”."
+  },
+  "cards2": {
+    "name": "Yessica Christy",
+    "city": "Shanxi, China",
+    "desc": "“I like it because I like to travel far and still can connect with high speed.”"
+  },
+  "cards3": {
+    "name": "Kim Young Jou",
+    "city": "Seoul, South Korea",
+    "desc": "“This is very unusual for my business that currently requires a virtual private network that has high security.”."
+  },
+  "cards4": {
+    "name": "John Bean",
+    "city": "Boston, America",
+    "desc": "“I really like to use the LaslesVPN, it is so fast and cool”"
+  },
+  "lastBlock": {
+    "text1": "Subscribe Now for Get Special Features!",
+    "text2": "Let's subscribe with us and find the fun.",
+    "textBtn": "Subscribe Now"
+  },
+  "footer": {
+    "text1": "LaslesVPN is a private virtual network that has unique features and has high security."
+  },
+  "block1": {
+    "title": "Product",
+    "text1": "Download",
+    "text2": "Pricing",
+    "text3": "Locations",
+    "text4": "Server",
+    "text5": "Countries",
+    "text6": "Blog"
+  },
+  "block2": {
+    "title": "Engage",
+    "text1": "LaslesVPN",
+    "text2": "FAQ",
+    "text3": "Tutorials",
+    "text4": "About Us",
+    "text5": "Privacy Policy",
+    "text6": "Terms of Service"
+  },
+  "block3": {
+    "title": "Earn Money",
+    "text1": "Affiliate",
+    "text2": "Become Partner"
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "LaslesVPN is committed to providing secure, fast, and reliable VPN services to users around the world. Our team is dedicated to ensuring your online privacy and security.",
+    "missionTitle": "Our Mission",
+    "missionText": "To deliver top-notch VPN services that protect our users' privacy and enable them to access content securely and freely, no matter where they are.",
+    "visionTitle": "Our Vision",
+    "visionText": "To become the most trusted and widely used VPN service in the world, known for innovation and commitment to privacy.",
+    "valuesTitle": "Our Values",
+    "value1": "Privacy First: We prioritize your privacy in everything we do.",
+    "value2": "Innovation: We continuously improve our services with cutting-edge technology.",
+    "value3": "Customer Satisfaction: Your satisfaction is our success."
+  },
+  "features": {
+    "title": "Our Features",
+    "subtitle": "Explore the amazing features of LaslesVPN that make your online experience secure and enjoyable.",
+    "feature1": {
+      "title": "Powerful Protection",
+      "description": "Experience robust online protection with advanced encryption and secure protocols."
+    },
+    "feature2": {
+      "title": "Global Accessibility",
+      "description": "Access content from anywhere in the world with our extensive server network."
+    },
+    "feature3": {
+      "title": "High-Speed Connection",
+      "description": "Enjoy lightning-fast speeds with no interruptions or buffering."
+    },
+    "feature4": {
+      "title": "No Logs Policy",
+      "description": "We don't track your online activity, ensuring your privacy is maintained."
+    },
+    "feature5": {
+      "title": "Multi-Device Support",
+      "description": "Connect multiple devices simultaneously and secure your entire household."
+    },
+    "feature6": {
+      "title": "User-Friendly Interface",
+      "description": "Our easy-to-use interface makes managing your VPN connections simple and intuitive."
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Pricing Plan",
+    "subtitle": "Select the plan that best suits your needs and budget.",
+    "card1": {
+      "title": "Basic Plan",
+      "description": "Ideal for individuals who need essential features.",
+      "price": "$9.99/month",
+      "button": "Select Plan"
+    },
+    "card2": {
+      "title": "Standard Plan",
+      "description": "For small teams needing advanced features.",
+      "price": "$19.99/month",
+      "button": "Select Plan"
+    },
+    "card3": {
+      "title": "Premium Plan",
+      "description": "For larger teams with extensive requirements.",
+      "price": "$29.99/month",
+      "button": "Select Plan"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Don't just take our word for it, hear from our satisfied customers",
+    "testimonial1": {
+      "name": "John Doe",
+      "position": "CEO at ABC Company",
+      "text": "LaslesVPN has been a game-changer for our business. We've seen a significant increase in productivity and security."
+    },
+    "testimonial2": {
+      "name": "Jane Smith",
+      "position": "Marketing Manager at DEF Agency",
+      "text": "I was blown away by the ease of use and the features of LaslesVPN. It's been a lifesaver for our team."
+    },
+    "testimonial3": {
+      "name": "Bob Johnson",
+      "position": "IT Specialist at GHI Corporation",
+      "text": "LaslesVPN has been a valuable addition to our security arsenal. We've seen a significant reduction in cyber threats."
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "text1": "Call To Us",
+    "text2": "We are available 24/7, 7 days a week.",
+    "text3": "Phone: +8801611112222",
+    "text4": "Write To US",
+    "text5": "Fill out our form and we will contact you within 24 hours.",
+    "text6":"Emails: customer@exclusive.com",
+    "text7":"Emails: support@exclusive.com",
+    "textBtn":"Send Message"
+  }
+}
