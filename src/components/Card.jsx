@@ -2,7 +2,11 @@ import React from "react";
 
 const Card = ({ photo, name, username, starPhoto, description }) => {
   return (
+<<<<<<< HEAD
     <div className="border-[2px] mb-[40px] h-[200px] md:w-[99%] md:h-[230px] w-[400px] p-[25px] rounded-md">
+=======
+    <div className="border-[2px] mb-[40px] h-[200px] w-[400px] md;w-[370px] p-[25px] rounded-md">
+>>>>>>> 9917722768ca125ce39d0c31f3c9862ec809032e
       <div className="flex justify-between">
         <div className="flex items-center gap-[10px]">
           <img
