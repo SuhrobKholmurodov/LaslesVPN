@@ -9,8 +9,8 @@ const Contact = () => {
 
   return (
     <div className="all">
-      <div className="pb-[20px] z-[-1] text-center pt-[35px]">
-        <p className="text-[36px] md:text-[28px] font-bold mb-[20px] text-center">
+      <div className="pb-[20px] z-[-1] text-center pt-[15px]">
+        <p className="text-[36px] md:text-[28px] font-bold mb-[20px] md:mb-[-30px] text-center">
           {t("contacts.title")}
         </p>
       </div>

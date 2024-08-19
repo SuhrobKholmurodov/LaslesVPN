@@ -8,8 +8,8 @@ const Testimonials = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="pt-[10px] pb-[80px] md:pb-[120px] bg-[#F7F7F7]">
-      <section className="container mx-auto p-[20px] md:p-[40px]">
+    <div className="pt-[10px] md:pb-[20px] md:mb-[20px] bg-[#F7F7F7]">
+      <section className="container mx-auto p-[20px] md:p-[10px]">
         <h1 className="text-[36px] md:text-[28px] font-bold mb-[20px] text-center">
           {t("testimonials.title")}
         </h1>
@@ -17,8 +17,8 @@ const Testimonials = () => {
           {t("testimonials.subtitle")}
         </p>
 
-        <div className="flex flex-wrap md:grid md:grid-cols-1 justify-center mb-[40px]">
-          <section className="w-full md:w-[100%] p-[20px] md:p-[30px] mb-[20px] md:mb-[40px] bg-white shadow-lg rounded-lg">
+        <div className="flex flex-wrap md:grid md:grid-cols-1 justify-center md:mb-[0px] mb-[40px]">
+          <section className="w-full md:w-[100%] p-[20px] md:p-[30px] mb-[20px] md:mb-[30px] bg-[white] shadow-lg rounded-lg">
             <div className="flex items-center mb-[20px]">
               <img
                 src={ronalo}
@@ -26,7 +26,7 @@ const Testimonials = () => {
                 className="w-[50px] h-[50px] rounded-full mr-[20px]"
               />
               <div>
-                <h2 className="text-[20px] md:text-[24px] font-semibold mb-[10px]">
+                <h2 className="text-[20px] font-semibold md:mb-[0px] mb-[10px]">
                   {t("testimonials.testimonial1.name")}
                 </h2>
                 <p className="text-[16px] md:text-[18px] leading-[1.6]">
@@ -39,7 +39,7 @@ const Testimonials = () => {
             </p>
           </section>
 
-          <section className="w-full md:w-[100%] p-[20px] md:p-[30px] mb-[20px] md:mb-[40px] bg-white shadow-lg rounded-lg">
+          <section className="w-full md:w-[100%] p-[20px] md:p-[30px] mb-[20px] md:mb-[30px] bg-[white] shadow-lg rounded-lg">
             <div className="flex items-center mb-[20px]">
               <img
                 src={messi}
@@ -47,7 +47,7 @@ const Testimonials = () => {
                 className="w-[50px] h-[50px] rounded-full mr-[20px]"
               />
               <div>
-                <h2 className="text-[20px] md:text-[24px] font-semibold mb-[10px]">
+                <h2 className="text-[20px] font-semibold mb-[10px] md:mb-[0px]">
                   {t("testimonials.testimonial2.name")}
                 </h2>
                 <p className="text-[16px] md:text-[18px] leading-[1.6]">
@@ -60,7 +60,7 @@ const Testimonials = () => {
             </p>
           </section>
 
-          <section className="w-full md:w-[100%] p-[20px] md:p-[30px] mb-[20px] md:mb-[40px] bg-white shadow-lg rounded-lg">
+          <section className="w-full md:w-[100%] p-[20px] md:p-[30px] mb-[20px] md:mb-[0px] bg-[white] shadow-lg rounded-lg">
             <div className="flex items-center mb-[20px]">
               <img
                 src={secondMessi}
@@ -68,7 +68,7 @@ const Testimonials = () => {
                 className="w-[50px] h-[50px] rounded-full mr-[20px]"
               />
               <div>
-                <h2 className="text-[20px] md:text-[24px] font-semibold mb-[10px]">
+                <h2 className="text-[20px] font-semibold mb-[10px] md:mb-[0px]">
                   {t("testimonials.testimonial3.name")}
                 </h2>
                 <p className="text-[16px] md:text-[18px] leading-[1.6]">

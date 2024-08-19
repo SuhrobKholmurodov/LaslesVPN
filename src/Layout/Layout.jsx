@@ -24,12 +24,12 @@ const Layout = () => {
       <PopupState variant="popover" popupId="demo-popup-menu">
         {(popupState) => (
           <React.Fragment>
-            <div className="flex items-center pl-[5%] pt-[20px] pr-[5%] justify-between">
+            <div className="md:flex items-center hidden pl-[5%] pt-[15px] pb-[15px] fixed top-0 left-0 right-0 bg-[#fafafa] pr-[5%] justify-between">
               <div>
                 <img
                   {...bindTrigger(popupState)}
                   src={burger}
-                  className="h-[35px] hidden sm:block bg-grey rounded-[5px] w-[45px]"
+                  className="h-[35px] hidden md:block bg-grey rounded-[5px] w-[45px]"
                   alt=""
                 />
               </div>
@@ -46,30 +46,30 @@ const Layout = () => {
                 <SelectLang />
               </div>
             </div>
-            <Menu className="" {...bindMenu(popupState)}>
-              <MenuItem className="w-[350px]" onClick={popupState.close}>
+            <Menu className="w-[100%]" {...bindMenu(popupState)}>
+              <MenuItem className="sm:w-[350px] md:w-[725px]" onClick={popupState.close}>
                 <li>
                   <NavLink to={"/About"}>{t("navbar.about")}</NavLink>
                 </li>
               </MenuItem>
-              <MenuItem className="w-[350px]" onClick={popupState.close}>
+              <MenuItem className="sm:w-[350px] md:w-[725px]" onClick={popupState.close}>
                 <li>
                   <NavLink to={"/Features"}>{t("navbar.features")}</NavLink>
                 </li>
               </MenuItem>
-              <MenuItem className="w-[350px]" onClick={popupState.close}>
+              <MenuItem className="sm:w-[350px] md:w-[725px]" onClick={popupState.close}>
                 <li>
                   <NavLink to={"/Pricing"}>{t("navbar.pricing")}</NavLink>
                 </li>
               </MenuItem>
-              <MenuItem className="w-[350px]" onClick={popupState.close}>
+              <MenuItem className="sm:w-[350px] md:w-[725px]" onClick={popupState.close}>
                 <li>
                   <NavLink to={"/Testimonials"}>
                     {t("navbar.testimonials")}
                   </NavLink>
                 </li>
               </MenuItem>
-              <MenuItem className="w-[350px]" onClick={popupState.close}>
+              <MenuItem className="sm:w-[350px] md:w-[725px]" onClick={popupState.close}>
                 <li>
                   <NavLink to={"/Contact"}>{t("navbar.help")}</NavLink>
                 </li>
@@ -117,7 +117,7 @@ const Layout = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[65px] md:mt-[5px] pl-[5%] pr-[5%] pt-[20px] overflow-y-auto">
+      <div className="mt-[65px] md:mt-[40px] pl-[5%] pr-[5%] pt-[20px] overflow-y-auto">
         <Outlet />
       </div>
       <footer className="pl-[5%] mt-[30px] md:grid md:grid-cols-2 md:gap-[30px] flex justify-between pr-[5%] pt-[20px]">

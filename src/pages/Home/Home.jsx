@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -40,7 +40,25 @@ import Card from "../../components/Card";
 const Home = () => {
   const { t, i18n } = useTranslation();
   SwiperCore.use([Navigation]);
-  const swiperRef = useRef(null);
+  const [swiperSettings, setSwiperSettings] = useState({
+    slidesPerView: 2.5,
+    spaceBetween: 10,
+  });
+
+  useEffect(() => {
+    if (window.innerWidth < 620) {
+      setSwiperSettings({
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 10,
+      });
+    } else {
+      setSwiperSettings({
+        slidesPerView: 2.5,
+        spaceBetween: 10,
+      });
+    }
+  }, []);
 
   return (
     <div className="main_div_home h-[100vh]">
@@ -63,7 +81,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            className="h-[300px] md:mt-[10px] md:shadow-lg md:rounded-lg object-cover w-[450px]"
+            className="h-[300px] md:mt-[30px] md:shadow-lg md:rounded-lg object-cover w-[450px]"
             src={programmer1}
             alt="programmer"
           />
@@ -395,8 +413,7 @@ const Home = () => {
 
       <div className="pt-[40px] pb-[50px]">
         <Swiper
-          slidesPerView={2.5}
-          spaceBetween={10}
+          {...swiperSettings}
           pagination={{
             clickable: true,
           }}
