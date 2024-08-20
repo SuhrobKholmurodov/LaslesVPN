@@ -13,7 +13,6 @@ import mainLogo from "../assets/main_logo.png";
 import facebookRed from "../assets/facebook_red.svg";
 import instagramRed from "../assets/instagram_red.svg";
 import burger from "../assets/burger.png";
-
 import twitterRed from "../assets/twitter_red.svg";
 
 const Layout = () => {
