@@ -46,7 +46,7 @@ const Home = () => {
   });
 
   useEffect(() => {
-    if (window.innerWidth < 620) {
+    if (window.innerWidth < 830) {
       setSwiperSettings({
         slidesPerView: 1,
         slidesPerGroup: 1,

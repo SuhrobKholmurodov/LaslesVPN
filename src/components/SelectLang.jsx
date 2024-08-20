@@ -23,25 +23,19 @@ export default function SelectLang() {
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           value={lng}
-          className="w-[150px] md:w-[125px] md:h-[35px] text-[black]"
+          className="w-[150px] md:w-[133px] md:h-[35px] text-[black]"
           onChange={(e) => {
             changeLanguage(e.target.value);
             setlng(e.target.value);
           }}
         >
-          <MenuItem
-            className="text-[black] bg-[#7d7676]"
-            value={"en"}
-          >
+          <MenuItem value={"en"}>
             <div className="flex items-center gap-[5px]">
               <img height={"25px"} width={"25px"} src={us} alt="" />
               <p>{t("lang.en")}</p>
             </div>
           </MenuItem>
-          <MenuItem
-            className="text-[black] bg-[#7d7676]"
-            value={"ru"}
-          >
+          <MenuItem value={"ru"}>
             <div className="flex items-center gap-[5px]">
               <img height={"25px"} width={"25px"} src={ru} alt="" />
               <p>{t("lang.ru")}</p>
