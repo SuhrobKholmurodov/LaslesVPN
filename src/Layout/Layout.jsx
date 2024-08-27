@@ -110,18 +110,18 @@ const Layout = () => {
               <li className="hover:text-[red]">
                 <NavLink to={"/About"}>{t("navbar.about")}</NavLink>
               </li>
-              <li>
+              <li className="hover:text-[red]">
                 <NavLink to={"/Features"}>{t("navbar.features")}</NavLink>
               </li>
-              <li>
+              <li className="hover:text-[red]">
                 <NavLink to={"/Pricing"}>{t("navbar.pricing")}</NavLink>
               </li>
-              <li>
+              <li className="hover:text-[red]">
                 <NavLink to={"/Testimonials"}>
                   {t("navbar.testimonials")}
                 </NavLink>
               </li>
-              <li>
+              <li className="hover:text-[red]">
                 <NavLink to={"/Contact"}>{t("navbar.help")}</NavLink>
               </li>
             </ul>
