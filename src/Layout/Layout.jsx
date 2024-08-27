@@ -107,7 +107,7 @@ const Layout = () => {
               </Link>
             </div>
             <ul className="flex font-mono justify-between w-[550px] ">
-              <li>
+              <li className="hover:text-[red]">
                 <NavLink to={"/About"}>{t("navbar.about")}</NavLink>
               </li>
               <li>
